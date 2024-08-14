@@ -67,6 +67,7 @@ export default function ProjectsPage() {
                   src={video}
                   muted
                   preload="metadata"
+                  autoPlay={true}
                   className="w-100 h-50 object-cover rounded-lg shadow-lg cursor-pointer"
                 />
               ))}

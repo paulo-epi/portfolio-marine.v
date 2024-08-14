@@ -42,7 +42,7 @@ const Header = () => {
   return (
     <header className="z-[999] relative w-full font-great_vibes">
       <motion.div
-        className="fixed top-0 left-0 h-[5rem] w-full bg-stone-100 bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] flex justify-between items-center px-6 md:px-28"
+        className="fixed top-0 left-0 h-[5rem] w-full bg-stone-100 bg-opacity-100 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] flex justify-between items-center px-6 md:px-28"
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
@@ -87,7 +87,7 @@ const Header = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute top-[5rem] text-2xl left-0 w-full bg-stone-100 bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] py-4 flex flex-col items-center gap-8 text-black"
+                    className="absolute top-[5rem] text-2xl left-0 w-full bg-stone-100 bg-opacity-100 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] py-4 flex flex-col items-center gap-8 text-black"
                   >
                     {links.map((link) => (
                       <li

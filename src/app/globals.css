@@ -10,6 +10,13 @@
   animation: animation 5s ease infinite;
 }
 
+.blurPB {
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+}
+
 @keyframes animation {
 
   0%,

@@ -31,8 +31,8 @@ export default function RootLayout({
       <body
         className={`${courgette.className} bg-[#f2e5d9d7] text-gray-950 relative pt-30 sm:pt-40 dark:bg-white-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-gradient-to-b from-[#fae385c3] to-[#ed7998af] absolute top-[-6rem] -z-10 right-[8rem] h-full w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="bg-gradient-to-b from-[#fae385b7] to-[#ed7998b7] absolute top-[-1rem] -z-20 left-[-35rem] h-full w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+        <div className="bg-gradient-to-b from-[#fae385c3] to-[#ed7998af] absolute top-[-6rem] -z-10 right-[8rem] h-full w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] blurPB"></div>
+        <div className="bg-gradient-to-b from-[#fae385b7] to-[#ed7998b7] absolute top-[-1rem] -z-20 left-[-35rem] h-full w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] blurPB"></div>
 
         <Header />
         {children}
