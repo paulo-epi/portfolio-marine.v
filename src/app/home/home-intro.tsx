@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 
 import profilPicture from "@/app/pp.jpg"
@@ -84,14 +84,14 @@ const Intro = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="font-great_vibes text-2xl group bg-white text-black px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black shadow"
           href="/assets/resume.pdf"
           download
         >
           Téléchargez mon CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-3 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack shadow"
@@ -100,6 +100,15 @@ const Intro = () => {
           rel="noopener noreferrer"
         >
           <BsLinkedin />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-3 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack shadow"
+          href="https://www.instagram.com/marine.villaume/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsInstagram />
         </a>
       </motion.div>
     </section>
