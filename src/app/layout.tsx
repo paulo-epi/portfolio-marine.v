@@ -18,7 +18,8 @@ const courgette = Courgette({
 
 export const metadata: Metadata = {
   title: 'Marine Villaume',
-  description: 'Marine Villaume, Community Manager et Chargée de Communication',
+  description: 'Marine Villaume | Community Manager et Chargée de Communication',
+  verification: {google: "google-site-verification=-rN5u2mmMYyd67xyrN8abCM9okHGXEauIEA0XUvuLFg"}
 };
 
 export default function RootLayout({
