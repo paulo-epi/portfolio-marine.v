@@ -28,4 +28,4 @@ jobs:
         run: |
           scp -r out/* marinea@54.36.91.62:/home/marinea/www
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.MARINE_VILLAUME_OVH }}
