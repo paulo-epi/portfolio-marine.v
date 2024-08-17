@@ -24,8 +24,11 @@ jobs:
       - name: Build and Export
         run: npm run build
 
-      - name: Deploy to OVH
-        run: |
-          scp -r out/* marinea@54.36.91.62:/home/marinea/www
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.MARINE_VILLAUME_OVH }}
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: out
+          server-dir: ${{ secrets.FTP_TARGET_DIR }}
