@@ -18,7 +18,7 @@ const courgette = Courgette({
 
 export const metadata: Metadata = {
   title: 'Marine Villaume',
-  description: 'Marine Villaume | Community Manager et Chargée de Communication',
+  description: 'Marine Villaume | Community Manager et Chargée de Communication au sein du Grand Est et des Vosges (Nancy (54), Epinal (88))',
   verification: {google: "google-site-verification=-rN5u2mmMYyd67xyrN8abCM9okHGXEauIEA0XUvuLFg"}
 };
 
