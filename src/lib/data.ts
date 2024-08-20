@@ -8,12 +8,12 @@ export const links = [
     hash: "about",
   },
   {
-    name: "Expériences",
-    hash: "experiences",
-  },
-  {
     name: "Mes créations",
     hash: "projects",
+  },
+  {
+    name: "Expériences",
+    hash: "experiences",
   },
   {
     name: "Contactez moi",
@@ -64,8 +64,7 @@ export const experiences = [
 export const creations = [
   {
     title: "Création d'affiche",
-    images: ["/assets/affiche2.png", "/assets/affiche3.png"],
-    pdf: "/assets/affiche1.pdf",
+    images: ["/assets/affiche1.png", "/assets/affiche2.png", "/assets/affiche3.png"],
     description: "Des affiches créatives et impactantes pour différents événements et promotions."
   },
   {
@@ -85,12 +84,13 @@ export const creations = [
   },
   {
     title: "Contenu Instagram",
-    images: ["/assets/insta1.png", "/assets/insta2.png", "/assets/insta3.png"],
+    images: ["/assets/insta1.png", "/assets/insta2.png", "/assets/insta3.png", "/assets/insta5.png", "/assets/insta6.png"],
     pdf: "/assets/insta4.pdf",
     description: "Contenu visuel et créatif pour booster votre présence sur Instagram."
   },
   {
     title: "Catalogue",
+    images: ["/assets/catalogue1.png", "/assets/catalogue2.png", "/assets/catalogue3.png"],
     pdf: "/assets/catalogue.pdf",
     description: "Catalogues détaillés et attrayants pour présenter vos produits ou services."
   },

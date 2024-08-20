@@ -61,11 +61,11 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">HELLO ! 🌟</span>
+        <span className="font-bold">HELLO ! 🌸</span>
         <br />
-        <span className="font-bold">Je suis Marine Villaume.</span> Je suis{" "}
-        <span className="font-bold">Community Manager et Chargée de Communication</span> au cœur du {" "}
-        <span className="font-bold">Grand Est et des Vosges</span>
+        <span>Je m'appelle Marine Villaume, Community
+          Manager et Chargée de Communication, basée au
+          cœur du Grand Est et des Vosges.</span>
       </motion.h1>
 
       <motion.div
@@ -78,14 +78,14 @@ const Intro = () => {
       >
         <Link
           href="/contact"
-          className="font-great_vibes text-2xl group bg-gray-900 text-white px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition shadow"
+          className="text-xl group bg-gray-900 text-white px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition shadow"
         >
           Contactez moi ici{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         {/* <a
-          className="font-great_vibes text-2xl group bg-white text-black px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black shadow"
+          className="text-2xl group bg-white text-black px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black shadow"
           href="/assets/resume.pdf"
           download
         >
