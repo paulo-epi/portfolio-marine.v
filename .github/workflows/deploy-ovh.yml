@@ -24,6 +24,14 @@ jobs:
       - name: Build and Export
         run: npm run build
 
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
+
+      - name: Remove existing directory on server
+        run: |
+          lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }};
+          rm -rf ${{ secrets.FTP_TARGET_DIR }}/_next/"
+
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
