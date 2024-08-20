@@ -31,7 +31,7 @@ jobs:
         run: |
           lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }};
           rm -rf ${{ secrets.FTP_TARGET_DIR }}/_next/;
-          rm -rf .ftp-deploy-sync-state.json"
+          rm -rf ${{ secrets.FTP_TARGET_DIR }}/.ftp-deploy-sync-state.json"
           
 
       - name: Deploy via FTP
