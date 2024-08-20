@@ -30,7 +30,9 @@ jobs:
       - name: Remove existing directory on server
         run: |
           lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }};
-          rm -rf ${{ secrets.FTP_TARGET_DIR }}/_next/"
+          rm -rf ${{ secrets.FTP_TARGET_DIR }}/_next/;
+          rm -rf .ftp-deploy-sync-state.json"
+          
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
