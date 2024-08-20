@@ -71,19 +71,6 @@ export default function ProjectsPage() {
                   className="w-100 h-50 object-cover rounded-lg shadow-lg cursor-pointer"
                 />
               ))}
-              {creation.pdf && (
-                <object
-                  data={creation.pdf}
-                  type="application/pdf"
-                  className="w-full h-[60vh] md:w-[655px] md:h-[500px] flex items-center justify-center bg-gray-200 rounded-lg shadow-lg text-gray-600 cursor-pointer border-none"
-                >
-                  <p>
-                    Your browser does not support PDFs.
-                    <a href={creation.pdf}>Download the PDF</a>
-                    .
-                  </p>
-                </object>
-              )}
             </div>
             <p className="text-lg font-normal text-gray-700">{creation.description}</p>
           </motion.div>

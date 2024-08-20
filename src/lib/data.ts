@@ -84,14 +84,12 @@ export const creations = [
   },
   {
     title: "Contenu Instagram",
-    images: ["/assets/insta1.png", "/assets/insta2.png", "/assets/insta3.png", "/assets/insta5.png", "/assets/insta6.png"],
-    pdf: "/assets/insta4.pdf",
+    images: ["/assets/insta5.png", "/assets/insta6.png"],
     description: "Contenu visuel et créatif pour booster votre présence sur Instagram."
   },
   {
     title: "Catalogue",
     images: ["/assets/catalogue1.png", "/assets/catalogue2.png", "/assets/catalogue3.png"],
-    pdf: "/assets/catalogue.pdf",
     description: "Catalogues détaillés et attrayants pour présenter vos produits ou services."
   },
   {
