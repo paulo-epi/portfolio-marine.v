@@ -26,7 +26,7 @@ export default function ProjectsPage() {
   return (
     <section id="creations" className="mb-10 max-w-[50rem] text-center sm:mt-0 mt-[7.5rem]">
       <motion.h1
-        className="mb-10 text-5xl font-great_vibes font-medium leading-[1.5] sm:text-4xl text-black"
+        className="mb-10 text-5xl font-medium leading-[1.5] sm:text-4xl text-black"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.1 }}
           >
-            <h2 className="text-4xl font-great_vibes font-semibold mb-4 text-gray-800">{creation.title}</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-gray-800">{creation.title}</h2>
             <div className="flex flex-wrap justify-center gap-4 mb-4">
               {creation.images && creation.images.map((image, imgIndex) => (
                 <div key={imgIndex} className="relative group">
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut", delay: creations.length * 0.1 }}
       >
-        <h2 className="text-4xl font-great_vibes font-semibold mb-4">Mon Starter Pack de Communicante</h2>
+        <h2 className="text-3xl font-semibold mb-8">Mon Starter Pack de Communicante</h2>
         <div className="flex flex-wrap justify-center gap-8">
           {starterPack.map((app, index) => (
             <div key={index} className="flex flex-col items-center">

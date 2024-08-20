@@ -37,7 +37,7 @@ export default function AboutPage() {
             </motion.h1>
 
             <motion.p
-              className="px-4 text-2xl text-center text-black font-great_vibes"
+              className="px-4 text-2xl text-center text-black"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
             >
@@ -85,9 +85,14 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
           >
-            <span className="font-bold font-great_vibes text-3xl text-black">Qui suis-je ?</span>
+            <span className="font-bold text-3xl text-black">Qui suis-je ?</span>
             <br />
-            Je m'appelle Marine Villaume, j'ai 21 ans et j'ai récemment décroché mon Bachelor en tant que Chargée de Communication en alternance à la Métropole du Grand Nancy. Avant de plonger dans l'univers palpitant de la com', j'ai obtenu mon baccalauréat en série économique et sociale (ES), puis un BTS GPME. Les nouvelles technologies et les stratégies de communication me fascinent depuis toujours, et me voilà prête à transformer cette passion en carrière !
+            Moi, c'est Marine Villaume !🌼 Depuis toujours, je suis fascinée par tout ce qui touche aux nouvelles
+            technologies et à la communication. C'est donc tout naturellement que j'ai décidé de transformer cette
+            passion en métier. Ce qui me motive ? Aider les marques et les entreprises à se démarquer, à créer du contenu
+            impactant et à développer des stratégies de communication qui font vraiment la différence. Si vous cherchez
+            quelqu'un pour donner un coup de boost à votre visibilité et faire passer vos messages de manière
+            authentique et efficace, je suis là pour vous accompagner ! 🚀
           </motion.p>
 
           <motion.p
@@ -97,7 +102,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.6, ease: "easeOut" }}
           >
-            <span className="font-bold font-great_vibes text-3xl text-black">Quelques Fun Facts sur moi 🎉</span>
+            <span className="font-bold text-3xl text-black">Quelques Fun Facts sur moi 🎉</span>
             <br />
             Je suis une curieuse insatiable ! Toujours prête à apprendre, je n'hésite jamais à explorer de nouvelles perspectives pour enrichir mes compétences. J'aime toucher à tout et élargir mes horizons, que ce soit dans le domaine professionnel ou personnel.
           </motion.p>
@@ -109,9 +114,11 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.7, ease: "easeOut" }}
           >
-            <span className="font-bold font-great_vibes text-3xl text-black">Créer, c'est mon crédo ! 🎨</span>
+            <span className="font-bold text-3xl text-black">Créer, c'est mon crédo ! 🎨</span>
             <br />
-            La création de contenu, c'est mon truc ! Que ce soit pour transmettre des messages inspirants ou capturer des moments magiques, je me régale à donner vie à des idées. Vidéo, design d'affiches, vous l'avez, je le fais ! Et grâce à la suite Adobe, j'ai découvert un monde de possibilités infinies. Je ne suis pas encore une pro absolue, mais avec un an d'expérience, je suis prête à apprendre encore et encore pour perfectionner mes compétences et mener à bien tous types de projets.
+            La création de contenu, c’est vraiment mon domaine ! Que ce soit pour véhiculer des messages inspirants ou
+            capturer des instants uniques, j’adore donner vie aux idées. Vidéos, affiches, peu importe le format, je suis là
+            pour ça ! Grâce à la suite Adobe, j’ai découvert un univers de possibilités infinies.
           </motion.p>
 
           <motion.p
@@ -121,7 +128,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.8, ease: "easeOut" }}
           >
-            <span className="font-bold font-great_vibes text-3xl text-black">Passion équitation 🐴</span>
+            <span className="font-bold text-3xl text-black">Passion équitation 🐴</span>
             <br />
             Les chevaux, c'est ma grande passion ! Depuis mes 6 ans, je pratique l'équitation et cela m'a appris tant de choses : patience, responsabilité, empathie et un profond respect pour les animaux. En plus, cela m'a forgé un esprit d'équipe en béton.
           </motion.p>

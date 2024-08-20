@@ -14,7 +14,7 @@ export default function ExperiencesPage() {
   return (
     <section id="experiences" className="mb-12 max-w-[50rem] text-center sm:mt-0 mt-[7.5rem]">
       <motion.h1
-        className="mb-10 text-5xl font-medium leading-[1.5] text-black font-great_vibes"
+        className="mb-10 text-5xl font-medium leading-[1.5] text-black"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -39,7 +39,7 @@ export default function ExperiencesPage() {
 
                 <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                   <div className="flex items-center justify-between space-x-2 mb-1">
-                    <div className="font-bold text-slate-900 font-great_vibes text-2xl">{section.role}</div>
+                    <div className="font-bold text-slate-900 text-2xl">{section.role}</div>
                     <time className="font-caveat font-medium text-indigo-500">{section.date}</time>
                   </div>
                   <div className="text-slate-500">{section.title}</div>

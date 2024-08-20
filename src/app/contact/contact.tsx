@@ -23,7 +23,7 @@ export default function ContactPage() {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <motion.h1
-          className="mb-12 text-5xl leading-[1.5] text-black font-great_vibes"
+          className="mb-12 text-5xl leading-[1.5] text-black"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -39,7 +39,7 @@ export default function ContactPage() {
         </motion.p>
 
         <motion.p
-          className="mb-8 text-3xl font-great_vibes text-black"
+          className="mb-8 text-xl text-black"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -47,7 +47,7 @@ export default function ContactPage() {
         </motion.p>
 
         <motion.p
-          className="mb-8 text-3xl font-great_vibes text-black"
+          className="mb-8 text-xl text-black"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -55,7 +55,7 @@ export default function ContactPage() {
         </motion.p>
 
         <motion.p
-          className="text-3xl font-great_vibes text-black"
+          className="text-xl text-black"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
